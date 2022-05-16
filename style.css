@@ -16,7 +16,7 @@ html {
 }
 
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   color: #444;
   background-color: #f3f3f3;
   height: 100vh;
@@ -259,6 +259,11 @@ h2 {
   padding: 0.3rem 1rem;
   border-radius: 0.7rem;
   transition: all 0.3s;
+}
+
+.number::-webkit-inner-spin-button,
+.number::-webkit-outer-spin-button {
+  -webkit-appearance: none;   margin: 0;
 }
 
 .form__input:focus {
